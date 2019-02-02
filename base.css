@@ -1,0 +1,140 @@
+html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #022000;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+#White {
+    margin: 0;
+    padding: 0.5em;
+    background: white;
+    font-family: November;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    -webkit-text-stroke: 1px black;
+}
+
+#Green {
+    margin: 0;
+    padding: 0.5em;
+    background: white;
+    font-family: November;
+    font-size: 1.5em;
+    color: #004600;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    -webkit-text-stroke: 1px black;
+}
+
+p {
+    background: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Crew413 {
+    font-size: 1.5em;
+    background-color: transparent; 
+    width: 100%;
+    height: auto;
+    color: #3f4110;
+    margin: 0;
+    padding: 0.5em;
+    background: white;
+    box-shadow: 0px 3px 5px grey;
+}
+
+.Troop {
+    font-size: 1.5em;
+    background-color: transparent; 
+    width: 100%;
+    height: auto;
+    color: #b28c6c;
+    margin: 0;
+    padding: 0.5em;
+    background: white;
+    box-shadow: 0px 3px 5px grey;
+}
+
+.Pack {
+    font-size: 1.5em;
+    background-color: transparent; 
+    width: 100%;
+    height: auto;
+    color: #45376a;
+    margin: 0;
+    padding: 0.5em;
+    background: white;
+    box-shadow: 0px 3px 5px grey;
+}
+
+.FooterL {
+    float: left;
+    width: 25%;
+    font-size: 2em;
+    text-align: left;
+}
+
+.FooterL > a {
+    color: #333333;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.FooterR {
+    float: right;
+    width: 25%;
+    font-size: 2em;
+    text-align: right;
+}
+
+.FooterR > a {
+    color: #333333;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#Facebook {
+    float: left;
+    width: 40%;
+}
+
+#Facebook > a {
+    margin-left: 50%;
+}
+
+.Bottom {
+    margin: 0;
+    margin-top: 1em;
+    padding: 0.5em;
+    float: left;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.Bottom > p {
+    margin: 0;
+    padding: 0;
+}

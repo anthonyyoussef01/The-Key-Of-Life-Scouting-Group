@@ -1,0 +1,373 @@
+::-webkit-scrollbar { 
+    display: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1;
+}
+
+.background > img {
+    width:100%;
+    height:100%;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#Copyright {
+    float: left;
+    color: black;
+    text-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px lightgray;
+    text-decoration: overline;
+    text-decoration-color: white;
+    font-size: 90%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0 0 0 1px;
+    bottom: 0;
+    padding: 0;
+}
+
+#Facebook {
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+#Facebook > a > img {
+    height: 30px;
+    align-content: center;
+}
+
+#Design {
+    float: right;
+    color: black;
+    text-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px lightgray;
+    text-decoration: overline;
+    text-decoration-color: white;
+    font-size: 90%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0 1px 0 0;
+    bottom: 0;
+    padding: 0;
+}
+
+body > img {
+    width: 100%;
+}
+
+
+.Crew413 {
+    text-shadow: 1px 1px 2px darkgray, 0 0 5px gray, 0 0 5px lightgray;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    font-size: 20px;
+    background-color: transparent; 
+    margin: 10px 5% 10px 5%;
+    padding: 10px;
+    width: 90%;
+    height: 25%;
+    color: black; 
+    border: 2px solid #3f4110;
+}
+
+.Crew413:hover {
+    background-color: #746e16;
+    border: 2px solid #746e16;
+    color: white;
+    text-shadow: 0 0 3px #2b2905, 0 0 5px #4b4709;
+}
+
+.Crew413:active {
+    background-color: #2e2b00;
+}
+
+.Troop {
+    text-shadow: 1px 1px 2px darkgray, 0 0 5px gray, 0 0 5px lightgray;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    font-size: 20px;
+    background-color: transparent; 
+    margin: 10px 5% 10px 5%;
+    padding: 10px;
+    width: 90%;
+    height: 25%;
+    color: black; 
+    border: 2px solid #b28c6c;
+}
+
+.Troop:hover {
+    background-color: #facc98;
+    border: 2px solid #facc98;
+    color: white;
+    text-shadow: 0 0 3px #594c42, 0 0 5px #b28c6c;
+}
+
+.Troop:active {
+    background-color: #b48e64;
+}
+
+.Pack {
+    text-shadow: 1px 1px 2px darkgray, 0 0 5px gray, 0 0 5px lightgray;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    font-size: 20px;
+    background-color: transparent; 
+    margin: 10px 5% 10px 5%;
+    padding: 10px;
+    width: 90%;
+    height: 25%;
+    color: black; 
+    border: 2px solid #45376a;
+}
+
+.Pack:hover {
+    background-color: #28376e;
+    border: 2px solid #28376e;
+    color: white;
+    text-shadow: 0 0 3px #040b24, 0 0 5px #081647;
+}
+
+.Pack:active {
+    background-color: #040c28;
+}
+
+hr {
+    width: 95%;
+}
+
+#BottomTop {
+    padding: 0% 2% 0% 2%;
+    color: black;
+    text-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px lightgray;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+#Bottom {
+    margin: 1% 0 0 0;
+    background-image: url(DiagonalStripes.png);
+    bottom: 0;
+    border-top-style: inset;
+    border-color: lightgray;
+    border-bottom-style: outset;
+}
+
+#BottomTop > p > a {
+    color: black;
+    text-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px lightgray;
+    text-decoration: none;
+}
+
+/*
+@media only screen and (orientation:portrait){
+    html {
+        background: url("Websitebackground.jpg") no-repeat center right fixed;
+        position: fixed;
+        height: 100%;
+        width 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: scroll;
+    }
+    
+    body {
+        overflow: scroll;
+    }
+    
+    .background{
+        display: none;
+    }
+    
+    .Crew413 {
+        font-size: 40px;
+        -webkit-transition-duration: 0;
+        transition-duration: 0;
+        padding: 0;
+        -webkit-transition-duration: 0;
+        transition-duration: 0;
+    }
+    
+    .Troop {
+        font-size: 40px;
+        -webkit-transition-duration: 0;
+        transition-duration: 0;
+        padding: 0;
+        -webkit-transition-duration: 0;
+        transition-duration: 0;
+    }
+               
+    .Pack {
+        font-size: 40px;
+        -webkit-transition-duration: 0;
+        transition-duration: 0;
+        padding: 0;
+        -webkit-transition-duration: 0;
+        transition-duration: 0;
+    }
+    
+    footer {
+        font-size: 35px;
+    }
+    
+    #Copyright {
+        margin: 0;
+        padding-left: 19%;
+        padding-right: 10%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #Facebook {
+        padding-left: 50%;
+        padding-right: 50%;
+        bottom: 0;
+        position: absolute;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";       /* IE 8 *//*
+        filter: alpha(opacity=90);  /* IE 5-7 *//*
+        -moz-opacity: 0.9;          /* Netscape *//*
+        -khtml-opacity: 0.9;        /* Safari 1.x *//*
+        opacity: 0.9;               /* Good browsers *//*
+    }
+
+    #Facebook > a > img {
+        height: 80px;
+        align-content: center;
+        bottom: 0;
+    }
+
+    #Design {
+        margin: 0;
+        padding-top: 0;
+        padding-left: 23%;
+        padding-right: 22%;
+        padding-bottom: 5.5%;
+    }
+    
+    #BottomTop {
+    padding: 0% 2% 0% 2%;
+    color: black;
+    text-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px lightgray;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    }
+
+    #Bottom {
+    margin: 1% 0 0 0;
+    background-image: url(DiagonalStripes.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    bottom: 0;
+    border-top-style: inset;
+    border-color: lightgray;
+    border-bottom-style: outset;
+}
+
+#BottomTop > p > a {
+    color: black;
+    text-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px lightgray;
+    text-decoration: none;
+}*/
+
+@media only screen and (orientation:portrait){
+    html {
+        background: url("RotateYourDevice.jpg") no-repeat center center fixed;
+        position: fixed;
+        height: 100%;
+        width 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    
+    body {
+        display: none;
+    }
+                
+    body > img {
+        display: none;
+    }
+    
+    .background {
+        display: none;
+    }
+    
+    .background > img {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+                
+    .Crew413 {
+        display: none;
+    }
+                
+    .Troop {
+        display: none;
+    }
+                
+    .Pack {
+        display: none;
+    }
+                
+    footer {
+        display: none;
+    }
+}
+
+@media only screen and (orientation:landscape){
+}

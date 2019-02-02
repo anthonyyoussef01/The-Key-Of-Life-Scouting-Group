@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (orientation:portrait){
+    body, html {
+        background-image: url("Oops-Portrait.jpg");
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (orientation:landscape){
+    body, html {
+        background-image: url("Oops-Landscape.jpg");
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (min-width:1281px) {
+    body, html {
+        background-image: url("Oops.jpg");
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+
