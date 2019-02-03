@@ -43,7 +43,7 @@
 
 .gallery {
     position: relative;
-    top: 47px;
+    /* top: 47px; */
     right: 1px;
     left: 1px;
     bottom: 1px;
